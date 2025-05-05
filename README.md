@@ -14,8 +14,7 @@ Setup a Role in IAM of AWS with Trust relationships pointing to the following.
 1. githubusercontent token
 2. github repo path with brancch information
 3. AWS Identity provider Audience ID.
-
-   The IAM role should be able to pull information from github using secure credentials and build an Image in the ECR.
+The IAM role should be able to pull information from github using secure credentials and build an Image in the ECR.
 
 **Challenges Faced:**
 1. The AWS account provided by university didn't had role creating privilige in IAM, had to use our personal account.
