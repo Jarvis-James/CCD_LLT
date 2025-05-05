@@ -10,6 +10,7 @@
 6. Image is pushed to AWS ECR.
 
 **IAM Role Design**
+
 Setup a Role in IAM of AWS with Trust relationships pointing to the following.
 1. githubusercontent token
 2. github repo path with brancch information
